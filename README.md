@@ -1,3 +1,3 @@
 # Foundational-Cplus-code
 
-Series of C++ spaghetti code to understand foundaits of the language.
+A collection of isorganized C++ code samples created to help build a deeper understanding of the language’s foundational concepts.
