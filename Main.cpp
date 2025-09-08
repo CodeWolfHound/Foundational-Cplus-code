@@ -8,19 +8,19 @@ int main() {
 }
 
 //Conditional learning
-int x = 5;
-if (x == 6)
-{
-	log("True");
-}
-else if (x == 5)
-{
-	log("Theoretical");
-}
-else
-{
-	log("False");
-}
+	int x = 5;
+	if (x == 6)
+	{
+		log("True");
+	}
+	else if (x == 5)
+	{
+		log("Theoretical");
+	}
+	else
+	{
+		log("False");
+	}
 
 //Loops
    for (int i = 0; i < 5; i++)
@@ -44,4 +44,5 @@ else
        Log("Do While Loop");
        i++;
    } while (i < 5);
+
 
