@@ -22,3 +22,26 @@ else
 	log("False");
 }
 
+//Loops
+   for (int i = 0; i < 5; i++)
+   {
+       Log("Hello, World!");
+   }
+
+   Log("-----");
+
+    int i = 0;
+   while (i < 5)
+   {
+       Log("while loop!");
+       i++;
+   }
+
+    i = 0;
+   
+   do
+   {
+       Log("Do While Loop");
+       i++;
+   } while (i < 5);
+
