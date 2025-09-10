@@ -23,26 +23,39 @@ int main() {
 	}
 
 //Loops
-   for (int i = 0; i < 5; i++)
-   {
-       Log("Hello, World!");
-   }
+	for (int i = 0; i < 5; i++)
+	{
+	       Log("Hello, World!");
+	}
+	
+	Log("-----");
+	
+	int i = 0;
+	while (i < 5)
+	{
+	    Log("while loop!");
+	    i++;
+	}
+	
+	i = 0;
+	   
+	do
+	{
+	   Log("Do While Loop");
+	    i++;
+	} while (i < 5);
 
-   Log("-----");
+    //Pointers
+    //Pointers are just variables that store memory addresses
 
-    int i = 0;
-   while (i < 5)
-   {
-       Log("while loop!");
-       i++;
-   }
+    int var = 8;
+    int* ptr = &var;
+    *ptr = 10;
+    Log(var);
 
-    i = 0;
-   
-   do
-   {
-       Log("Do While Loop");
-       i++;
-   } while (i < 5);
+    char* buffer = new char[8];//allocate 8 bytes
+    memset(buffer, 0, 8);//set all bytes to 0
+    char** ptr2 = &buffer;//pointer to pointer
+    delete[] buffer;//free memory
 
 
